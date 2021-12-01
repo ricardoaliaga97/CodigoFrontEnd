@@ -3,3 +3,6 @@ Hola, mi nombre es Ricardo Espinoza
 Soy bachiller en Ingeniería Empresarial, acabo de terminar la universidad el año pasado.
 
 Por navidad me gusta comer pavo y tomar Inka Kola
+
+Esto lo estoy haciendo en mi rama de ricardo_dev y quiero 
+que los cambios se junten con main
