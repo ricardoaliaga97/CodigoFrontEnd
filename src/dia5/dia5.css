@@ -1,0 +1,138 @@
+/* Que es CSS */
+/* Para poder ver reflejado mis estilos en mi pagina web debo vincular el archivo
+   css con el html */
+/* Es un motor de estilos muy potente */
+/* Se acostumbra a tener un estilo global para quitarle el padding y el margin
+   a una pagina web */
+/* PADDING es el espacio interno de un elemento */
+/* MARGIN es el espacio externo de un elemento */
+
+/* Estilos Globales */
+/* Para tener un estilo global para mi web yo puedo usar el * */
+/* Se recomienda solo manjera el padding, margin y border-box */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Etiqueta para aplcia run estilo a todo el body */
+body{
+    /* font-family es el atributo que me permite cambiar el tipo de letra */
+    /* Actualmente las computadoras vienen con el tipo de letra instalado */
+    /* Monserrat es un tipo de letra no instalado, para poder usarlo podemos descargarlo
+       y agregarlo al proyecto como un archivo o usar un link de referencia */
+    /* Hay algunas fuentes (tipos de letras) que necesitan estar entre comillas porque
+       son nombres compuestos */
+    /* Uno puede anidar (combinar) tipos de letras */
+    /* Se hace esto porque puede pasar que un tipo de letra no este instalado y se usarian
+       los otros tipos de letras restantes*/
+    font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+}
+
+/* Como aplicar un estilo a una etiqueta inicial */
+/* Quiero que los h1 sean de color rojo */
+
+h1{
+    /* color es el color del texto */
+    color: #f0021f;
+    /* background-color es el color de fondo de un elemento */
+    background-color: black;
+    /* font-weight es para asignar grosor a la letra */
+    /* font-weight esta en el rango de 100 a 900, tambien tiene la propiedad
+       bold para poder el texto en negrita */
+    font-weight: bold;
+    text-align: center;
+}
+
+section{
+    background-color: #7583a5;
+    /* border es la propiedad para ponder un borde a un elemento, esto recibe
+       3 entradas */
+    /* tamaño de pixel, color, solid */
+    border: 3px blue solid;
+}
+p{
+    text-align: justify;
+}
+/* Como acceder a un elemento hijo */
+/* Para acceder a un elemento en cascada puedo anidar las etiquetas */
+/* Busca el elemento article y dentro de este debe estar el elemento p y a ese p pintalo
+   del color azul */
+ article p{
+    color: white;
+    /* text-align: Permite colocar el texto en 4 formas */
+    /* Alineado a la derecha
+       Alineado a la izquierda
+       Justificado
+       Centrado*/
+    text-align: center;
+    /* font-size es para manejar el tamaño del texto */
+    font-size: 22px;
+}
+
+/* Como hacer para que li sean verde */
+li{
+    color: green;
+}
+
+nav{
+   border: 2px solid rgb(0, 214, 252);
+}
+
+/* Fondo de ul sea de color gris */
+/* Hacer que mi lista sea horizontal */
+ul{
+    background-color: gainsboro;
+    border: 2px solid red;
+    text-align: right;
+}
+
+/*  */
+ul li{
+    /* list-style: none le quita las viñetas a mi lista */
+    list-style: none;
+    /* display: es la propiedad en la que se puede mostrar un elemento
+       por default, al momento de escribir display es asi: display: block*/
+
+    display: inline;
+}
+
+a{
+   color: salmon;
+   /* text-decoration: es una propiedad para asignar distintos estilos a un texto */
+   text-decoration: none;
+}
+/* Este div contiene a la imagen */
+div{
+   border: 5px solid black;
+   text-align: center;
+}
+img{
+   /* la unidad basica del css son los pixeles px */
+   width: 300px;
+   height: 50%;
+}
+
+/* Para acceder a un ID que es html usamos el # + el nombre que le asignamos */
+#titulo{
+   color: aquamarine;
+}
+
+#text_introduction{
+   text-align: justify;
+}
+
+/* Para repetir los mismos estilos se recomienda usar clases */
+/* Para acceder a una clase se utiliza el . */
+.text__pagina{
+   color: chocolate;
+}
+/* Solo se debe utiliza el id cuando sea absolutamente necesario */
+/* Ejemplo: podemos usar el id para el logo central o para el h1 */
+
+#logo{
+   width: 300px;
+   height: 100;
+   border: 1px solid rgb(56, 255, 255);
+}
