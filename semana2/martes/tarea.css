@@ -1,0 +1,279 @@
+body{
+    font-size: 16px;
+    font-family: arial;
+}
+
+h2{
+    font-size: 24px;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+/* Div Principal */
+.wrap{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Header */
+
+header{
+    background: #00AF1C;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+    margin-bottom: 50px;
+}
+
+header .logo{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    margin-left: 33px;
+}
+
+header ul{
+    display: flex;
+    color: white;
+    margin-right: 33px;
+    font-size: 18px;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+.seccion__1{
+    margin-right: 33px;
+    margin-left: 33px;
+}
+
+.seccion__1 h2{
+    color: #3B06D2;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.seccion__1 p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.seccion__1 div{
+    display: flex;
+}
+
+.seccion__1 figure{
+    height: 182px;
+    width: 385px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+
+.seccion__2{
+    margin-right: 33px;
+    margin-left: 33px;
+}
+
+.seccion__2 h2{
+    color: #D206B2;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.seccion__2 .p__1{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.seccion__2 .p__2{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+
+
+.seccion__2 div{
+    display: flex;
+}
+
+.seccion__2 figure{
+    height: 182px;
+    width: 385px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.seccion__3 ul {
+    margin-left: 65px;
+    list-style-type: disc;
+}
+
+.seccion__3 .lista__1{
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.seccion__3 .lista__2{
+    color: #2016af;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.seccion__3 .lista__3{
+    color: #c7b40c;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.seccion__3 .lista__4{
+    color: #2de7e7;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 55px;
+}
+
+.seccion__4{
+    margin-right: 33px;
+    margin-left: 33px;
+}
+
+.seccion__4 h2{
+    color: #AAD206;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.seccion__4 .p__1{
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.seccion__4 .p__2{
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+.seccion__4 div{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.seccion__4 figure{
+    height: 182px;
+    width: 385px;
+    margin-right: 40px;
+}
+
+.seccion__5 ul {
+    margin-left: 65px;
+    list-style-type: disc;
+}
+
+.seccion__5 .lista__1{
+    color: #c7b40c;
+    ;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.seccion__5 .lista__2{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.seccion__5 .lista__3{
+    color: #0648ff;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.seccion__5 .lista__4{
+    color: #117408;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 55px;
+}
+
+.seccion__6 {
+    margin-left: 33px;
+}
+
+.seccion__6 h2{
+    color: #06D2C6;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.seccion__6 p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.seccion__6 .caja__1{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    height: 80px;
+    width: 1339px;
+    margin-bottom: 25px;
+}
+::placeholder{
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: black;
+}
+
+.seccion__6 .caja__2{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    height: 214px;
+    width: 1339px;
+    margin-bottom: 25px;
+}
+
+.seccion__6 .boton{
+    border: 1px solid #22A900;
+    box-sizing: border-box;
+    height: 73px;
+    width: 195px;
+    margin-bottom: 150px;
+}
+
+footer{
+    background: #00AF1C;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+}
+
+footer .p__1{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 33px;
+}
+
+footer .p__2{
+    color: white;
+    margin-right: 33px;
+    font-size: 20px;
+}

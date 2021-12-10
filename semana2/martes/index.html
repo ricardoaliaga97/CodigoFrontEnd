@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTORES</title>
+    <style>
+        /* SELECTORES SIMPLES */
+        body {
+            background: rgb(165, 144, 144);
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background: orange;
+        }
+
+        ul a {
+            color: white;
+        }
+
+        input [type="text"] {
+            padding: 20px;
+        }
+
+        input[disabled] {
+            background: grey;
+        }
+
+        a[href="https://pe.linkedin.com/"] {
+            background: blueviolet;
+            color: orange;
+        }
+
+        a[href="https://www.google.com.pe/?hl=qu/"] {
+            background: lemonchiffon;
+            color: black;
+        }
+
+        /* PSEUDO CLASES */
+
+        .box:hover {
+            /* cuando pasas el mouse sobre la caja naranja cambia a 
+            color violeta */
+            background: violet;
+        }
+
+        .box:hover h2 {
+            color: white;
+        }
+
+        input:focus {
+            outline: none;
+            box-shadow: 0 0 10px blue;
+        }
+
+        ul.one li:first-child a {
+            color: brown;
+        }
+
+        ul.one li:nth-child(3) a {
+            color: rgb(12, 193, 199);
+        }
+
+        ul.one li:last-child a {
+            color: rgb(20, 84, 189);
+        }
+
+        ul.one li:nth-child(odd) a {
+            background: white;
+        }
+
+        ul.one li:nth-child(even) a {
+            background: green;
+        }
+
+        ul.two li:nth-child(2n+2) {
+            background: blue;
+        }
+
+        /* PSEUDO ELEMENTOS */
+
+        h2::first-letter {
+            font-size: 40px;
+        }
+
+        p::first-line {
+            background: white;
+        }
+
+        ul > li{
+            color: fuchsia;
+        }
+
+        h2+p{
+            background: blue;
+        }
+
+
+         h3~p{
+             background-color: chartreuse;
+         }
+
+
+        /* Cambiar el color de la seleccion */
+         *::selection{
+             background: pink;
+
+         }
+
+         /* Selector multiple */
+         h1,
+         h2,
+         h3,
+         h4,
+         h5,
+         h6{
+             color: red;
+             font-family: arial;
+             background: green;
+         }
+
+
+
+
+    </style>
+
+
+
+
+
+</head>
+
+<body>
+    <div class="box">
+        <h2>Texto</h2>
+    </div>
+    <ul class="one">
+        <li><a href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">4</a></li>
+        <li><a href="">5</a></li>
+    </ul>
+
+    <ul class="two">
+        <li><a href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">4</a></li>
+        <li><a href="">5</a></li>
+    </ul>
+
+    <input type="text">
+    <input type="checkbox">
+    <input type="password">
+    <input type="text" disabled>
+    <a href="https://pe.linkedin.com/">LINKEDIN</a>
+    <a href="https://www.google.com.pe/?hl=qu/">GOOGLE</a>
+
+    <h2>OTRO TITULO DE PAGINA</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minus numquam aut nostrum quidem similique itaque,
+        ex, natus excepturi nulla dolores ullam vel neque laboriosam earum recusandae provident amet animi.</p>
+
+    <ul>
+        <li>Unorder List</li>
+        <li>Unorder List</li>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ol>
+    </ul>
+
+    <h2>Titulo</h2>
+    <p>Lorem</p>
+    <p>Lorem</p>
+
+    <h2>Titulo</h2>
+    <p>Lorem</p>
+    <p>Lorem</p>
+
+    <h2>Titulo</h2>
+    <p>Lorem</p>
+    <p>Lorem</p>
+
+    <h2>Titulo</h2>
+    <p>Lorem</p>
+    <p>Lorem</p>
+
+    <h3>Titulo</h3>
+    <p>Lorem</p>
+    <p>Lorem</p>
+
+
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+
+</body>
+
+
+</html>
